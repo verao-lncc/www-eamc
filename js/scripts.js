@@ -1,7 +1,7 @@
-$.ajaxSetup({
-    // Disable caching of AJAX responses
-    cache: false
-});
+// $.ajaxSetup({
+//     // Disable caching of AJAX responses
+//     cache: false
+// });
 
 $(function () {
     $("#nav-placeholder").load("../components/navbar.html");
