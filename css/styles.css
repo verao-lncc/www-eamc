@@ -12259,3 +12259,11 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
+
+.alert-red {
+  background-color: #f8d7da; /* Vermelho claro */
+  color: #721c24; /* Cor do texto */
+  border-color: #f5c6cb; /* Borda opcional */
+  padding: 15px;
+  border-radius: 5px;
+}
