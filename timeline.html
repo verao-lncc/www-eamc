@@ -15,21 +15,6 @@
     <link href="css/styles.css" rel="stylesheet" />
     <!-- JQuery -->
     <script src="js/jquery.min.js"></script>
-    <style>
-        .row-striped:nth-of-type(odd) {
-            background-color: #efefef;
-            border-left: 4px #000000 solid;
-        }
-
-        .row-striped:nth-of-type(even) {
-            background-color: #ffffff;
-            border-left: 4px #efefef solid;
-        }
-
-        .row-striped {
-            padding: 15px 0;
-        }
-    </style>
 </head>
 
 <body class="d-flex flex-column">
@@ -37,163 +22,155 @@
         <!-- Navigation -->
         <div id="nav-placeholder"></div>
 
-        <header></header>
         <header class="py-2">
             <div class="container px-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xxl-6">
                         <div class="text-center my-5">
-                            <h1 class="fw-bolder mb-3">
-                                Cronograma
-                            </h1>
+                            <i class="bi bi-hourglass-split" style="font-size:2.5rem;"></i>
+                            <h1 class="fw-bolder mb-3">Cronograma</h1>
                             <p class="lead fw-normal text-muted">
-                                Fique ligado nestas datas importantes!
+                                O cronograma completo com datas importantes será divulgado em breve.
                             </p>
-                            <p class="lead alert-info text-muted mb-4 pt-1">
-                                🎉 Boa notícia! Ampliamos o prazo para submissão de trabalho até o dia 25/10/2025 às 23h59 (horário de Brasília).
-                                <br /><a class="btn btn-outline-secondary mb-2 mt-2" href="submissions.html">Submeter Agora</a>
-                            </p>
-                            <!--<p class="lead alert-info text-muted mb-4">
-                                Em 2024, o XVII EAMC será realizado de maneira inteiramente virtual.
-                            </p>-->
-                            <!-- <a class="btn btn-primary btn-lg" href="#scroll-target">Leia mais</a> -->
                         </div>
                     </div>
                 </div>
             </div>
         </header>
 
-        <!-- Cronograma @ program.html -->
-        <div class="container py-4 px-4 px-md-8 mb-5">
+        <div class="d-none">
+            <!-- Cronograma @ program.html -->
+            <div class="container py-4 px-4 px-md-8 mb-5">
 
-            <!-- row 1 -->
-            <div class="row row-striped">
-                <div class="col-md-2 col-auto text-center">
-                    <h1 class="display-4"><span class="badge bg-secondary">18</span></h1>
-                    <h2>AGO</h2>
-                </div>
-                <div class="col-6">
-                    <h3 class="mb-2">Abertura das submissão de trabalhos</h3>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><i class="bi bi-calendar-check" aria-hidden="true"></i> Segunda
-                        </li>
-                        <!-- <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i> 
-                            12:30 PM - 2:00 PM
-                        </li> -->
-                        <li class="list-inline-item"><i class="bi bi-geo-fill" aria-hidden="true"></i> Online</li>
-                    </ul>
-                    
-                </div>
-            </div>
-
-            <!-- row 2 -->
-            <div class="row row-striped rounded-3">
-                <div class="col-md-2 col-auto text-center">
-                    <h1 class="display-4"><span class="badge bg-secondary">25</span></h1>
-                    <h2>OUT</h2>
-                </div>
-                <div class="col-6">
-                    <h3 class=" mb-2">Fim das submissões</h3>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><i class="bi bi-calendar-check" aria-hidden="true"></i>
-                            Sábado
-                        </li>
-                        <!-- <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i>
-                            23:59
-                        </li> -->
-                        <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i>
-                            23:59
-                        </li>
-                        <li class="list-inline-item"><i class="bi bi-geo-fill" aria-hidden="true"></i> Online</li>
-                    </ul>
-                    
-                </div>
-            </div>
-
-            <!-- row 3 -->
-            <div class="row row-striped rounded-3">
-                <div class="col-md-2 col-auto text-center">
-                    <h1 class="display-4"><span class="badge bg-secondary">24</span></h1>
-                    <h2>NOV</h2>
-                </div>
-                <div class="col-6">
-                    <h3 class=" mb-2">Resultado preliminar</h3>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><i class="bi bi-calendar-check" aria-hidden="true"></i>
-                            Segunda
-                        </li>
-                        <!-- <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i>
-                            23:59
-                        </li> -->
-                        <li class="list-inline-item"><i class="bi bi-geo-fill" aria-hidden="true"></i> Online</li>
-                    </ul>
-                    
-                </div>
-            </div>
-        
-            <!-- row 4 -->
-            <div class="row row-striped rounded-3">
-                <div class="col-md-2 col-auto text-center">
-                    <h1 class="display-4"><span class="badge bg-secondary">1</span></h1>
-                    <h2>DEZ</h2>
-                </div>
-                <div class="col-6">
-                    <h3 class=" mb-2">Fim das correções</h3>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><i class="bi bi-calendar-check" aria-hidden="true"></i>
-                            Segunda
-                        </li>
-                        <!-- <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i>
-                            23:59
-                        </li> -->
-                        <li class="list-inline-item"><i class="bi bi-geo-fill" aria-hidden="true"></i> Online</li>
-                    </ul>
-                    
-                </div>
-
-                <!-- row 5 -->
-            <div class="row row-striped rounded-3">
-                <div class="col-md-2 col-auto text-center">
-                    <h1 class="display-4"><span class="badge bg-secondary">8</span></h1>
-                    <h2>DEZ</h2>
-                </div>
-                <div class="col-6">
-                    <h3 class=" mb-2">Divulgação do resultado final</h3>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><i class="bi bi-calendar-check" aria-hidden="true"></i>
-                            Segunda
-                        </li>
-                        <!-- <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i>
-                            23:59
-                        </li> -->
-                        <li class="list-inline-item"><i class="bi bi-geo-fill" aria-hidden="true"></i> Online</li>
-                    </ul>
-                    
-                </div>
-            </div>
-
-            <!-- row 6 -->
-            <div class="row row-striped rounded-3">
-                <div class="col-md-2 col-auto text-center">
-                    <h1 class="display-4"><span class="badge bg-secondary">19</span></h1>
-                    <h2>JAN<br />2026</h2>
-                </div>
-                <div class="col-6">
-                    <h3 class="mb-2">XIX EAMC 🎉</h3>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><i class="bi bi-calendar-check" aria-hidden="true"></i>
-                            19 a 22 de janeiro
-                        </li>
+                <!-- row 1 -->
+                <div class="row row-striped">
+                    <div class="col-md-2 col-auto text-center">
+                        <h1 class="display-4"><span class="badge bg-secondary">18</span></h1>
+                        <h2>AGO</h2>
+                    </div>
+                    <div class="col-6">
+                        <h3 class="mb-2">Abertura das submissão de trabalhos</h3>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><i class="bi bi-calendar-check" aria-hidden="true"></i> Segunda
+                            </li>
+                            <!-- <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i> 
+                                12:30 PM - 2:00 PM
+                            </li> -->
+                            <li class="list-inline-item"><i class="bi bi-geo-fill" aria-hidden="true"></i> Online</li>
+                        </ul>
                         
-                        <!--
-                        <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i>
-                            09:00 - 17:00
-                        </li>
-                        -->
+                    </div>
+                </div>
+
+                <!-- row 2 -->
+                <div class="row row-striped rounded-3">
+                    <div class="col-md-2 col-auto text-center">
+                        <h1 class="display-4"><span class="badge bg-secondary">25</span></h1>
+                        <h2>OUT</h2>
+                    </div>
+                    <div class="col-6">
+                        <h3 class=" mb-2">Fim das submissões</h3>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><i class="bi bi-calendar-check" aria-hidden="true"></i>
+                                Sábado
+                            </li>
+                            <!-- <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i>
+                                23:59
+                            </li> -->
+                            <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i>
+                                23:59
+                            </li>
+                            <li class="list-inline-item"><i class="bi bi-geo-fill" aria-hidden="true"></i> Online</li>
+                        </ul>
                         
-                        <li class="list-inline-item"><i class="bi bi-geo-fill" aria-hidden="true"></i> Presencial e Online</li>
-                    </ul>
-                    
+                    </div>
+                </div>
+
+                <!-- row 3 -->
+                <div class="row row-striped rounded-3">
+                    <div class="col-md-2 col-auto text-center">
+                        <h1 class="display-4"><span class="badge bg-secondary">24</span></h1>
+                        <h2>NOV</h2>
+                    </div>
+                    <div class="col-6">
+                        <h3 class=" mb-2">Resultado preliminar</h3>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><i class="bi bi-calendar-check" aria-hidden="true"></i>
+                                Segunda
+                            </li>
+                            <!-- <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i>
+                                23:59
+                            </li> -->
+                            <li class="list-inline-item"><i class="bi bi-geo-fill" aria-hidden="true"></i> Online</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            
+                <!-- row 4 -->
+                <div class="row row-striped rounded-3">
+                    <div class="col-md-2 col-auto text-center">
+                        <h1 class="display-4"><span class="badge bg-secondary">1</span></h1>
+                        <h2>DEZ</h2>
+                    </div>
+                    <div class="col-6">
+                        <h3 class=" mb-2">Fim das correções</h3>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><i class="bi bi-calendar-check" aria-hidden="true"></i>
+                                Segunda
+                            </li>
+                            <!-- <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i>
+                                23:59
+                            </li> -->
+                            <li class="list-inline-item"><i class="bi bi-geo-fill" aria-hidden="true"></i> Online</li>
+                        </ul>
+                        
+                    </div>
+
+                    <!-- row 5 -->
+                <div class="row row-striped rounded-3">
+                    <div class="col-md-2 col-auto text-center">
+                        <h1 class="display-4"><span class="badge bg-secondary">8</span></h1>
+                        <h2>DEZ</h2>
+                    </div>
+                    <div class="col-6">
+                        <h3 class=" mb-2">Divulgação do resultado final</h3>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><i class="bi bi-calendar-check" aria-hidden="true"></i>
+                                Segunda
+                            </li>
+                            <!-- <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i>
+                                23:59
+                            </li> -->
+                            <li class="list-inline-item"><i class="bi bi-geo-fill" aria-hidden="true"></i> Online</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+
+                <!-- row 6 -->
+                <div class="row row-striped rounded-3">
+                    <div class="col-md-2 col-auto text-center">
+                        <h1 class="display-4"><span class="badge bg-secondary">19</span></h1>
+                        <h2>JAN<br />2026</h2>
+                    </div>
+                    <div class="col-6">
+                        <h3 class="mb-2">XIX EAMC 🎉</h3>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><i class="bi bi-calendar-check" aria-hidden="true"></i>
+                                19 a 22 de janeiro
+                            </li>
+                            
+                            <!--
+                            <li class="list-inline-item"><i class="bi bi-clock" aria-hidden="true"></i>
+                                09:00 - 17:00
+                            </li>
+                            -->
+                            
+                            <li class="list-inline-item"><i class="bi bi-geo-fill" aria-hidden="true"></i> Presencial e Online</li>
+                        </ul>
+                        
+                    </div>
                 </div>
             </div>
 
